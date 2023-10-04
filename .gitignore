@@ -1,0 +1,7 @@
+#IntelliJ Folders
+.idea/
+
+#Alure Reports
+allure-report/
+allure-results/
+target/
