@@ -1,0 +1,1 @@
+{"uuid":"56be708c-0cfe-489f-ba5f-896584d40968","name":"Scenario: Logout","children":["481608b5-8169-4865-b6fe-f3f87bbc2a07"],"befores":[],"afters":[{"name":"Hooks.Hooks.takeScreenshot(io.cucumber.java.Scenario)","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1696425186617,"stop":1696425186617}],"start":1696425186435,"stop":1696425186618}

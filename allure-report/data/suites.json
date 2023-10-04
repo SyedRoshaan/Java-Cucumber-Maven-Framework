@@ -1,0 +1,141 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login Feature",
+    "children" : [ {
+      "name" : "Unsuccessful login with valid credentials",
+      "uid" : "c92a3f6ddad4ea17",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425164240,
+        "stop" : 1696425164560,
+        "duration" : 320
+      },
+      "flaky" : false,
+      "parameters" : [ "Epic sadface: Sorry, this user has been locked out.", "secret_sauce", "locked_out_user" ]
+    }, {
+      "name" : "Unsuccessful login with valid credentials",
+      "uid" : "59a3db758f8d2284",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425164646,
+        "stop" : 1696425164864,
+        "duration" : 218
+      },
+      "flaky" : false,
+      "parameters" : [ "Epic sadface: Username and password do not match any user in this service", "secret_sauce", "standrd_user" ]
+    }, {
+      "name" : "Successful login with valid credentials",
+      "uid" : "465ed50ff46b6542",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425164875,
+        "stop" : 1696425165171,
+        "duration" : 296
+      },
+      "flaky" : false,
+      "parameters" : [ "secret_sauce", "standard_user" ]
+    }, {
+      "name" : "Successful login with valid credentials",
+      "uid" : "afdefd40f63fedd7",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425165198,
+        "stop" : 1696425170477,
+        "duration" : 5279
+      },
+      "flaky" : false,
+      "parameters" : [ "secret_sauce", "performance_glitch_user" ]
+    }, {
+      "name" : "Sorting Products",
+      "uid" : "3a3b364d1bc52271",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425170487,
+        "stop" : 1696425170597,
+        "duration" : 110
+      },
+      "flaky" : false,
+      "parameters" : [ "Name (A to Z)" ]
+    }, {
+      "name" : "Sorting Products",
+      "uid" : "72b3416739521f21",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425170597,
+        "stop" : 1696425175717,
+        "duration" : 5120
+      },
+      "flaky" : false,
+      "parameters" : [ "Name (Z to A)" ]
+    }, {
+      "name" : "Sorting Products",
+      "uid" : "c3275efb6c9e0e55",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425175730,
+        "stop" : 1696425180832,
+        "duration" : 5102
+      },
+      "flaky" : false,
+      "parameters" : [ "Price (low to high)" ]
+    }, {
+      "name" : "Sorting Products",
+      "uid" : "13ded901bcd7811b",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425180839,
+        "stop" : 1696425185921,
+        "duration" : 5082
+      },
+      "flaky" : false,
+      "parameters" : [ "Price (high to low)" ]
+    }, {
+      "name" : "Add Product to cart",
+      "uid" : "3f0a324a3911a734",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425185929,
+        "stop" : 1696425185998,
+        "duration" : 69
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Checkout Product",
+      "uid" : "2a520c5f579c0a59",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425186008,
+        "stop" : 1696425186428,
+        "duration" : 420
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Logout",
+      "uid" : "aa5a4e40a557e561",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1696425186435,
+        "stop" : 1696425186618,
+        "duration" : 183
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f9c73e3b6043a10f46ec57e2285ab4c7"
+  } ]
+}
